@@ -1,0 +1,204 @@
+body {
+    background-color: #fdf6ec;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.img {
+    position: absolute;
+    top: 10px;
+    right: 76px;
+    width: auto;
+    height: 16%;
+    border-radius: 14px;
+  
+}
+
+
+.ch1 {
+    color: #347e8b;
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+
+.hp1 {
+
+
+    background-color: #9ac3b4 ;
+    color: red;
+    width: 100;
+    height: 40px;
+
+}
+
+nav {
+    text-align: start;
+
+}
+
+.right {
+    margin-right: 308px;
+    font-size: 30px
+}
+
+.pp1 p {
+    color: #3a4772;
+    line-height: 1.5;
+    font-size: 22px;
+}
+
+.ap1 h1 {
+    color: #347e8b;
+    font-size: 35px;
+
+}
+
+.ap1 p {
+    color: #3a4772;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+.ap1 li {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+#sign-in {
+    font-size: 20px;
+    color: #347e8b;
+
+
+}
+
+.fp1 label {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #347e8b
+}
+
+.fp1 input[type=text]:focus {
+    background-color: #7794e0;
+     width: 175px;
+}
+
+.fp1 input {
+    width: 98px;
+    height: 25px;
+    padding: 4px;
+    margin: 8px;
+    border-radius: 5px;
+}
+
+.fp1 input[type=text]:hover {
+    transition-duration: 0.5s;
+    margin: 9px;
+    padding: 12px;
+
+
+}
+
+.user {
+    display: inline-block;
+    padding: 6px 8px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #9bc9bf;
+    background-color: #347e8b;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 5.1px #969696;
+}
+
+
+.user:hover {
+    transition-duration: 0.5s;
+    background-color: #9ff1e5;
+    margin: 6px;
+    padding: 10px;
+}
+
+.btn {
+
+    display: inline-block;
+    padding: 4px;
+    font-size: 10px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color:#9bc9bf;
+    background-color: #347e8b;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4.1px #969696;
+
+}
+
+.btn:hover {
+    transition-duration: 0.5s;
+    background-color: #9ff1e5;
+    margin: 3px;
+    padding: 5px;
+}
+
+p {
+    color: RED;
+    font-size: 15px;
+}
+
+footer {
+    background-color: #eee3d9;
+    text-align: left;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+}
+
+  .NoYesbtn{
+    display: inline-block;
+    padding: 8px;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #9bc9bf;
+    background-color: #347e8b;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px #969696;
+    
+    transition: transform 400s ease;
+  }
+  #noButton{
+    cursor: pointer;
+    position: absolute;
+    left: 144px;
+    
+    
+  }
+  .NoYesbtn:hover {
+    transition-duration: 0.5s;
+    background-color: #9ff1e5;
+    margin: 7px;
+    padding: 10px;
+}
+
+#noButton.move {
+    transition: transform 400s ease; 
+    left: 250px;
+}
+
+  .review {
+    color: RED;
+    font-size: 17px
+
+  }
+ 
